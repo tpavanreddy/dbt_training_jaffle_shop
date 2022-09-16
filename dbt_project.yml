@@ -25,6 +25,6 @@ models:
     schema: dbt_pavan
     
     staging:
-      +materialized: table
+      +materialized: view
 
 

@@ -27,4 +27,10 @@ models:
     staging:
       +materialized: view
 
+    intermediate:
+      +materialized: view
+
+    _report:
+      +materialized: view
+
 

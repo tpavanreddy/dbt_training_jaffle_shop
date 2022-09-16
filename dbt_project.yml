@@ -22,7 +22,8 @@ clean-targets:
 
 models:
   dbt_jaffle_shop:
-  
+
+    schema: dbt_pavan
     staging:
     +materialized: table
 

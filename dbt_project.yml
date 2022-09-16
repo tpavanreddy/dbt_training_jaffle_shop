@@ -36,6 +36,6 @@ models:
     # Applies to all files under models/example/
     schema: dbt_mahesh
     example:
-      materialized: view
+      +materialized: view
     staging:
-      materialized: table
+      +materialized: table

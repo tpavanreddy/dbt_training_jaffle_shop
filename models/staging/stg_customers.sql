@@ -1,1 +1,1 @@
-
+select * from raw.jaffle.shop

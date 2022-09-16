@@ -27,5 +27,7 @@ customers_sales_rpt as (
         on  customers.customer_id = customer_payments.customer_id
 
 )
-
-select * from customers_sales_rpt
+select 
+    * 
+from
+    customers_sales_rpt

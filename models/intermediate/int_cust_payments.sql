@@ -23,4 +23,4 @@ customer_payments as (
 select 
     *
 from
-    customer_payments;
+    customer_payments

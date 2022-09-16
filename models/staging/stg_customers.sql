@@ -1,1 +1,1 @@
-select * from raw.jaffle.shop
+select * from raw.jaffle_shop.customers 

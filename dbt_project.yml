@@ -22,15 +22,19 @@ clean-targets:
 
 models:
   dbt_jaffle_shop:
-    schema: dbt_pavan_test
+    database: DB_PAVAN_TEST
+    schema: GENERAL_USE
     
     staging:
+      +schema: stg_
       +materialized: view
 
     intermediate:
+      +schema: intermediate_
       +materialized: view
 
     _report:
+      +schema: report_
       +materialized: view
 
 

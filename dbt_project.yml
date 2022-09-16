@@ -22,7 +22,7 @@ clean-targets:
 
 models:
   dbt_jaffle_shop:
-    schema: dbt_pavan
+    schema: dbt_pavan_test
     
     staging:
       +materialized: view

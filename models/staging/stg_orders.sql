@@ -9,3 +9,4 @@ select
 
 from
     {{ source('src_jaffle_shop', 'orders') }}
+
